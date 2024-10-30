@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.background-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#quiz-card {
+    width: 40%;
+    border-style: none;
+    border-radius: 20px;
+    background-color:#F9F6EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-content {
+    text-align:center;
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.start-prompt {
+    text-align:center;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#start-btn {
+    border-style: none;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 8px 4px;
+    border-radius: 4px;
+    background-color: rgb(95, 93, 93);
+    color: #ffffff;
+    font-size: medium;
+}
+
+#start-btn:hover {
+    cursor: pointer;
+    background-color: #979797;
+}
+
+.question-para {
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    width: fit-content;
+    margin: 16px 24px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.option-btn {
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+    margin: 16px 0;
+    font-weight: 600;
+    width: 90%;
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 6px;
+    border-style: none;
+    background-color: #FFDEAD;
+    border-radius: 6px;
+    color: 	#D2691E;
+}
+
+.option-btn:hover{
+    cursor: pointer;
+    background-color: #E2DFD2;
+    color: #F4A460;
+}
+
+.next-btn {
+    width: 20%;
+    border-style: none;
+    padding: 8px 4px;
+    border-radius: 4px;
+    background-color: rgb(95, 93, 93);
+    color: #ffffff;
+    font-size: medium;
+}
+
+.next-btn:hover{
+    cursor: pointer;
+    background-color: #979797;
+}
+
+.next-btn-sc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.result-card {
+    text-align: center;
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
